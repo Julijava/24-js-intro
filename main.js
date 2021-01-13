@@ -1,3 +1,5 @@
+"use strict";
+
 //vienos eilute komentaras
 
 /*
@@ -7,7 +9,6 @@ komentaras
 */
 
 // jei noresime ka nors issispausdinti, tai naudojame console.log()
-
 console.log(15896245);
 console.log(Labas rytas);
 
@@ -28,7 +29,8 @@ Kintamuju inicijavimo budai:
  */
 
 //  inicijuoti kintamaji, kuris niekada nesikeis ir bus skaicius 2021
-const metai = 2021;
+
+metai = 2021;
 
 // inicijuoti kintamaji, kuris niekada nesikais ir bus tekstas Petras
 const vardas = 'Petras';
@@ -97,6 +99,38 @@ const hi = 'Labas';
 const morning = 'rytas';
 
 const sayHi = hi + ' ' + morning + '!';
-console.log(sayHi)
+console.log(sayHi);
+
+/*
+teksto reiksme gali buti inicijuota: 
+    viengubose kabutese
+    dvigubose kabutese
+*/
+
+// teskte naudojamos dvigubos kabutes
+const dvigubosTeskste = 'Tekste naudojamos dvigubos (") kabutes.;
+console.log(dvigubosTeskste);
+
+// tekste naudojamos viengubos kabutes
+const viengubosTeskste = 'Tekste naudojamos viengubos (') kabutes.;
+console.log(viengubosTeskste);
+
+// tekste naudojamos viengubos kabutes ir dvigubos kabutes
+const abiTekste12 = 'Tekste yra abi kabutes 1 (') ir 2 (")'.;
+console.log( abiTekste12);
+
+console.log(html);
+
+const imgSrc = './img/doggo.jpg';
+cont h1 = 'Labas rytas!';
+const p = 'ksdkjjncjcnjncdjn.';
+
+cont html1 = 
+
+console.beautiful 
 
 
+const john = 'Johnny Boy';
+const candy = 'lolly pop';
+
+const sentence = '${person}' do you want a ${candy}?';
