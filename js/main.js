@@ -1,6 +1,6 @@
 "use strict";
 
-//vienos eilute komentaras
+//vienos eilutes komentaras
 
 /*
 keletos
@@ -10,7 +10,8 @@ komentaras
 
 // jei noresime ka nors issispausdinti, tai naudojame console.log()
 console.log(15896245);
-console.log(Labas rytas);
+console.log('Labas rytas');
+
 
 /*
 Reiksmiu tipai:
@@ -40,8 +41,9 @@ console.log(vardas);
 
 console.log(metai, vardas);
 
+/*
 console.log('Metai:', metai);
-console.log('Asmens vardas:', vardas, 'ir jis gyveno:', metai, metais.');
+console.log('Asmens vardas:', vardas, 'ir jis gyveno:', metai);
 
 const pirmasSkaicius = 13;
 const antrasSkaicius = 2;
@@ -91,7 +93,7 @@ console.log(s1 ** s2); // kelimas laipsniu: penki astuntuoju
 console.log(2 + 2 * 2);
 console.log((2 +2) * 2);
 
-console.log'-----------------------');
+console.log('-----------------------');
 
 //tekstines operacijos
 
@@ -116,8 +118,8 @@ const viengubosTeskste = 'Tekste naudojamos viengubos (') kabutes.;
 console.log(viengubosTeskste);
 
 // tekste naudojamos viengubos kabutes ir dvigubos kabutes
-const abiTekste12 = 'Tekste yra abi kabutes 1 (') ir 2 (")'.;
-console.log( abiTekste12);
+const abiTekste12 = 'Tekste yra abi kabutes 1 (') ir 2 (")';
+console.log(abiTekste12);
 
 console.log(html);
 
